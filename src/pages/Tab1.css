@@ -1,3 +1,17 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+.text-center {
+  text-align: center;
+}
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.title-img {
+  width: 50%;
+  margin: auto;
+}
+.login-button {
+  margin-top: 50px;
+}

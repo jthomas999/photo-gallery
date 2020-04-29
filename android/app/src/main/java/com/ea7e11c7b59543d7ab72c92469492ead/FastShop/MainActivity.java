@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package com.ea7e11c7b59543d7ab72c92469492ead.FastShop;
 
 import android.os.Bundle;
 
@@ -17,5 +17,11 @@ public class MainActivity extends BridgeActivity {
       // Additional plugins you've installed go here
       // Ex: add(TotallyAwesomePlugin.class);
     }});
+
+    this.init(savedInstanceState, new ArrayList<Class<? extends Plugin>>() {{
+	...
+	add(jp.rdlabo.capacitor.plugin.facebook.FacebookLogin.class);
+	...
+}});
   }
 }

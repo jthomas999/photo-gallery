@@ -1,12 +1,8 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "photo-gallery",
+  "appId": "com.1603343656488766.FastShop",
+  "appName": "FastShop",
   "bundledWebRuntime": false,
   "npmClient": "npm",
-  "webDir": "build",
-  "cordova": {},
-  "server": {
-    "url": "http://192.168.1.15:8100",
-    "cleartext": true
-  }
+  "webDir": "www",
+  "cordova": {}
 }
