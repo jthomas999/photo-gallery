@@ -1,4 +1,4 @@
-import { IonContent, IonText, IonRow, IonCol, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonImg } from '@ionic/react';
+import { IonContent, IonText, IonRow, IonCol, IonHeader, IonPage, IonTitle, IonToolbar, IonButton} from '@ionic/react';
 import React, { Component } from 'react';
 import './Tab1.css';
 import { Plugins } from '@capacitor/core';
